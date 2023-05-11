@@ -1,0 +1,32 @@
+nav>ul>li, nav>ul>li>ul {
+    display: none;
+}
+
+li{
+    list-style: none;
+}
+
+.subLi{
+    display: none;
+}
+nav{
+    position: absolute;
+    /* height: 100px; */
+}
+/* .mainLi{
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    color: yellow;
+    z-index: 100;
+} */
+
+.mainUl{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.mainLi{
+    margin: 10px;
+}
